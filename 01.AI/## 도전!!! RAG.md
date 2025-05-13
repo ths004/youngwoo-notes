@@ -104,6 +104,10 @@ https://www.youtube.com/watch?v=NfQrRQmDrcc&t=1012s
 
 
 
+대규모 언어 모델을 위한 검색-증강 생성(RAG) 기술 현황 
+https://discuss.pytorch.kr/t/rag-1-2/3135
+
+https://discuss.pytorch.kr/t/rag-2-2/3160
 
 
 https://dev.to/llmware/become-a-rag-professional-in-2024-go-from-beginner-to-expert-41mg
