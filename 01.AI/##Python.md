@@ -153,7 +153,7 @@ continue : 해당 반복 회차를 스킵하고 반복문의 처음으로 돌아
     => ok
 ```
 #### 내장함수
-mport 없이 사용할 수 있는 함수
+import 없이 사용할 수 있는 함수
 *  자주 사용하는 내장함수들
     - print()	출력
     - input()	입력
@@ -558,3 +558,20 @@ pip 와 requirements.txt 로 한다
 ```
 
 ### Poetry 나중에 하자.. 많이 했다.
+
+
+
+
+### pipenv 설치 + 가상환경 설정 
+```
+	sudo apt install python3-pip
+	
+	pip3 install pipenv
+	
+	### 설치시 오류(error: externally-managed-environment) : pip3 install [something]
+	sudo rm -rf /usr/lib/python3.12/EXTERNALLY-MANAGED
+	
+```
+
+### Docker 에서 실행된다
+https://velog.io/@youngsupchoi/Docker-pipenv%EA%B8%B0%EB%B0%98%EC%9D%98-%EC%9E%A5%EA%B3%A0-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95
